@@ -4,9 +4,173 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOMEPAGE</title>
+    <title>Landing Page responsive con effetto Parallasse </title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>HELLO WORLD</h1>
+    
+    <header>
+
+        <div class="container__header">	
+
+            <div class="logo">
+                <a href="#"><img src="img/—Pngtree—stereo summer seaside travel_6243888.png" alt="logo"></a>
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Chi siamo</a></li>
+                        <li><a href="#">Prodotti</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contatti</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="menu-bar">
+                <div id="menus" onclick="show_menu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+            <div class="header__register">
+                <input type="button" class="btn__header-register" value="Registrati">
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="cover">
+            
+            <div class="text__information-cover">
+                <h1>Far parte della storia del <span style="color: #959593;">progesso </span>tecnologico</h1>
+
+                <p>Usa l'intelligenza fruibile di ciascuno
+                evento digitale per avere un impatto positivo sui risultati di business.</p>
+
+                <div class="buttons__cover">
+                    <input type="button" class="btn__register-cover" value="Registrati">
+                    <input type="button" class="btn__readMore-cover" value="Leggi di più">
+                </div>
+
+            </div>
+
+            <div class="media__cover">
+                <img src="img/loading-gif-png-5.gif" autoplay playinline loop muted preload="auto"></img>
+            </div>
+
+
+        </div>
+
+        <div class="container__banner">
+
+            <div class="banner">
+                <div class="banner__icon-heart">
+                    <img src="img/heart_notify.png" id="icon_heart" alt="">
+                </div>
+                <div class="banner__icon-fire">
+                    <img src="img/fire-dynamic-color.png" id="icon_fire" alt="">
+                </div>
+                <div class="banner__text">
+                    <h2>Il moderno stack di data intelligence nel cloud per il tuo business mission-critical.</h2>
+                    <a href="#">Scopri di più</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="container__background-triangle">
+            <div class="triangle triangle1"></div>
+            <div class="triangle triangle2"></div>
+            <div class="triangle triangle3"></div>
+        </div>
+        <div class="container__cards">
+            <div class="card">
+                <div class="cover__card">
+                    <img src="img/web_design.png" alt="">
+                </div>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui sunt eius dolore pariatur. Error, provident et similique sunt voluptate odit eos facere expedita, culpa at officia magnam quia vel eius!</p>
+                <hr>
+                <div class="down__card">
+                    <h3 class="user__name">Daniela Panda</h3>
+                    <i>25 Aprile</i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cover__card">
+                    <img src="img/seo.png" alt="SEO">
+                </div>
+                <h2>SEO  SEM  ADV</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui sunt eius dolore pariatur. Error, provident et similique sunt voluptate odit eos facere expedita, culpa at officia magnam quia vel eius!</p>
+                <hr>
+                <div class="down__card">
+                    <h3 class="user__name">Mario Rossi</h3>
+                    <i>6 Maggio</i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cover__card">
+                    <img src="img/wordpress.png" alt="">
+                </div>
+                <h2>Wordpress</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui sunt eius dolore pariatur. Error, provident et similique sunt voluptate odit eos facere expedita, culpa at officia magnam quia vel eius!</p>
+                <hr>
+                <div class="down__card">
+                    <h3 class="user__name">Augusto Travia</h3>
+                    <i>18 Giugno</i>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>chi siamo</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>link utili</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>shop online</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>social</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
